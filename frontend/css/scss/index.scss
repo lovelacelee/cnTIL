@@ -1,0 +1,37 @@
+// Learn and Test Sass In One File
+
+// Variables
+$nav-color: #F90;
+$plain-font: sans-serif;
+$basic-border: 1px solid black;
+nav {
+    $width: 500px;
+    width: $width;
+    color: $nav-color;
+    font: $plain-font;
+    border: $basic-border;
+}
+
+// -or_
+// Sass is not sensitive of - and _
+// You could use it like this
+
+$link-color: #FFF;
+a {
+    color: $link_color;
+}
+
+// Nesting
+// Sass could let you nest your CSS selectors in a way that follows the same visual 
+// hierarchy of your HTML.
+
+nav {
+    ul { 
+        margin: 0;
+        padding: 0;
+    }
+    li { display: inline-block; }
+}
+
+
+@use 'partial';
