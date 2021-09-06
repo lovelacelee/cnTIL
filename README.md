@@ -1,6 +1,6 @@
 # cnTIL
 
-![Today I Learned](brief.svg)
+![Today I Learned](brief.gif)
 
 ## What is this?
 
