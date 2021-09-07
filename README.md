@@ -4,7 +4,7 @@
 
 ## Ladder
 
-[ladder up](ladder.md)
+[🔭 🔭 🔭 Ladder up🔭 🔭 🔭 ](ladder.md)
 
 ## What is this?
 
@@ -21,3 +21,7 @@ So here is my TIL project on the way.
 ## Contact
 
 Any issues please contact [Me:)](mailto:admin@lovelacelee.com)
+
+## Reference
+
+[Markdown Syntax](https://markdown.com.cn/extended-syntax/)

@@ -24,12 +24,14 @@
 
 SASS的源文件格式一般是：`.sass`, SCSS与SASS的文档格式相比，多了`{}`和`;`，也就是说SASS文件的编写更简洁，用缩进替换了`{}`的管理层级，编写sass就像是编写yaml配置文件
 
+安装使用很简单，在npm环境下：
+
 ```bash
 npm install -g sass
 sass source/stylesheets/index.scss build/stylesheets/index.css
 ```
 
-* VSCODE怎么编译SASS：Easy Sass
+* VSCODE怎么编译SASS：`Easy Sass`插件
 
     vscode/settings.json
     ```
@@ -85,8 +87,10 @@ sass source/stylesheets/index.scss build/stylesheets/index.css
 
 比SASS更优化？Stay tuned.
 
+介于我在研究的时候<sub>(@202109)</sub>，Stylus还没有完全支持VSCode的自动化编译，对我这个小白来讲不太方便。
 
-## 选择
+
+## 选择入手
 
 Sass
 

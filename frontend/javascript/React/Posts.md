@@ -1,0 +1,1 @@
+1.[Why should we separate the logic from the component?](https://felixgerschau.com/react-hooks-separation-of-concerns/)
