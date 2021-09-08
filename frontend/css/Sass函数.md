@@ -1,4 +1,4 @@
-# Sass函数.md
+# Sass函数
 
 实现px与rem的转化
 
