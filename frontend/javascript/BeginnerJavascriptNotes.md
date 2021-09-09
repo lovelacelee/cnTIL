@@ -5,5 +5,5 @@
 
 # 值得看
 
-[Javascrip重温系列](https://mp.weixin.qq.com/s?__biz=MjM5MDc4MzgxNA%3D%3D&chksm=b1c224ea86b5adfc10c3aa1841be3879b9360d671e98cc73391c2490246f1348857b9821d32c&idx=1&mid=2458453187&scene=21&sn=a69b4d7d991867a07a933f86e66b9f55#wechat_redirect)
+[Javascrip重温系列](http://js.pingan8787.com/)
 
