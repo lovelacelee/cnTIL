@@ -9,7 +9,7 @@
 
 ## @import
 
-sass团队将逐步废弃@import语法，原因：
+sass团队将逐步废弃@import语法，原因：
 
 1、无法知道变量、Mixin、函数具体是在哪里定义，模块多级引用时发生
 2、会导致重复的CSS代码，多个scss加载相同的common.scss时发生
