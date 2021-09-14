@@ -201,3 +201,42 @@ Java的数组有几个特点：
     int[] ns = { 68, 79, 91, 85, 62 };//进一步简写
     ```
 * 数组定义后与String一样，也具有定义之后的不变性
+
+### 二维数组
+
+```java
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[][] ns = {
+            { 1, 2, 3, 4 },
+            { 5, 6, 7, 8 },
+            { 9, 10, 11, 12 }
+        };
+        System.out.println(Arrays.deepToString(ns));
+    }
+}
+```
+
+### 三维数组
+
+
+```java
+int[][][] ns = {
+    {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    },
+    {
+        {10, 11},
+        {12, 13}
+    },
+    {
+        {14, 15, 16},
+        {17, 18}
+    }
+};
+```
