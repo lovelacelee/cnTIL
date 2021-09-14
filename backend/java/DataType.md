@@ -143,3 +143,61 @@ String s3 = "中文 ABC"; // 包含6个字符，其中有一个空格
 * `\r` 表示回车符
 * `\t` 表示Tab
 * `\u####` 表示一个Unicode编码的字符
+
+### 字符串连接
+
+Java的字符串连接与Python一样。
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        String s1 = "Hello";
+        String s2 = "world";
+        String s = s1 + " " + s2 + "!";
+        System.out.println(s);
+    }
+}
+//比Python更好用的地方在于类型自动连接转换
+public class Main {
+    public static void main(String[] args) {
+        int age = 25;
+        String s = "age is " + age;
+        System.out.println(s);
+    }
+}
+//多行连接
+String s = "first line \n"
+         + "second line \n"
+         + "end";
+String s = """ 
+           SELECT * FROM
+             users
+           WHERE id > 100
+           ORDER BY name DESC""";
+```
+
+注意：
+* 字符串不可变性
+* 引用变量的空值null
+    引用类型的变量可以指向一个空值null，它表示不存在，即该变量不指向任何对象。例如：
+    ```java
+    String s1 = null; // s1是null
+    String s2; // 没有赋初值值，s2也是null
+    String s3 = s1; // s3也是null
+    String s4 = ""; // s4指向空字符串，不是null
+    ```
+
+
+## 数组
+
+Java的数组有几个特点：
+
+* 数组所有元素初始化为默认值，整型都是0，浮点型是0.0，布尔型是false；
+* 数组一旦创建后，大小就不可改变。
+* 数组是引用类型，在使用索引访问数组元素时，如果索引超出范围，运行时将报错
+* 可以在定义数组时直接指定初始化的元素，这样就不必写出数组大小，而是由编译器自动推算数组大小。例如：
+    ```java
+    int[] ns = new int[] { 68, 79, 91, 85, 62 };
+    int[] ns = { 68, 79, 91, 85, 62 };//进一步简写
+    ```
+* 数组定义后与String一样，也具有定义之后的不变性
