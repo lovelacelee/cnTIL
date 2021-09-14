@@ -1,11 +1,22 @@
+<!-- vscode-markdown-toc -->
+* 1. [JDK](#JDK)
+* 2. [基础原则](#)
+* 3. [知道的就不再记录了](#-1)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 # Hello,World
 
-## JDK 
+##  1. <a name='JDK'></a>JDK 
 2021年了，写JAVA小DEMO再也不用在Oracle下载安装JDK，配置环境变量，一步一步地费劲
 
 VSCODE随便写个java文件保存，按提示安装微软提供的JAVA开发套件，从Github下载JDK11即可起飞。
 
-## 基础原则
+##  2. <a name=''></a>基础原则
 
 * **Java代码文件名必须与文件中定义的类名一致**
 * **每个Java代码文件中，只能有一个Public类**
@@ -58,7 +69,7 @@ Usage: java [options] <mainclass> [args...]
 java HelloWorld
 ```
 
-## 知道的就不再记录了
+##  3. <a name='-1'></a>知道的就不再记录了
 
 * 只通过此路径整理已经忘记的内容
 * 测试代码也是只跑回忆

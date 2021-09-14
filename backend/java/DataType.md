@@ -1,6 +1,17 @@
+<!-- vscode-markdown-toc -->
+* 1. [Java内置类型：](#Java)
+* 2. [类型转换](#)
+* 3. [字符和字符串](#-1)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 # 数据类型
 
-## Java内置类型：
+##  1. <a name='Java'></a>Java内置类型：
 
 >Java是强类型语言， 对于每一种数据都定义了类型，基本数据类型分为数值型，字符型，布尔型。数值型又分为了整型和浮点型。
 
@@ -80,7 +91,7 @@ JVM就可以完成基本类型和它们对应包装类之间的自动转换。�
 * 初始值不同，基本类型的初始值如int为0，boolean为false，而包装类型的初始值为null
 * 使用方式不同，基本类型直接赋值直接使用就好，而包装类型在集合如Collection、Map时会使用到
 
-## 类型转换
+##  2. <a name=''></a>类型转换
 
 根据类型所占内存大小,小可转大，大转小会失去精度
 
@@ -100,7 +111,7 @@ byte(1 bit) ->  short(16 bit)  -> int(32 bit)  -> long(64 bit)
 
 这与C语言完全一样。
 
-## 字符和字符串
+##  3. <a name='-1'></a>字符和字符串
 
 因为Java在内存中总是使用Unicode表示字符，所以，一个英文字符和一个中文字符都用一个char类型表示，它们都占用两个字节。要显示一个字符的Unicode编码，只需将char类型直接赋值给int类型即可：
 
